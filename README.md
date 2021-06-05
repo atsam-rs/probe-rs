@@ -5,6 +5,8 @@ written in Rust
 
 [![crates.io](https://meritbadge.herokuapp.com/probe-rs)](https://crates.io/crates/probe-rs) [![documentation](https://docs.rs/probe-rs/badge.svg)](https://docs.rs/probe-rs) [![Actions Status](https://github.com/probe-rs/probe-rs/workflows/CI/badge.svg)](https://github.com/probe-rs/probe-rs/actions) [![chat](https://img.shields.io/badge/chat-probe--rs%3Amatrix.org-brightgreen)](https://matrix.to/#/#probe-rs:matrix.org) 
 
+## FORK NOTE: This fork exists to support EDBG based probes.  The EDBG has some quirks that require custom changes to probe-rs. 
+
 The goal of this library is to provide a toolset to interact with a variety of embedded MCUs and debug probes.
 
 Similar projects like OpenOCD, PyOCD, Segger Toolset, ST Tooling, etc. exist.

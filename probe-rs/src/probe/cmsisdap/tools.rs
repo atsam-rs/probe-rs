@@ -279,7 +279,7 @@ pub fn open_device_from_selector(
                     // Start with a default 64-byte report size, which is the most
                     // common size for CMSIS-DAPv1 HID devices. We'll request the
                     // actual size to use from the probe later.
-                    report_size: 64,
+                    report_size: 512,
                 }),
                 _ => {
                     // Return NotFound if this VID:PID was not a valid CMSIS-DAP probe,
